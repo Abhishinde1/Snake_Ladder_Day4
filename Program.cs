@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Snake Ladder Program");
 
-            Console.WriteLine("Enter the program number \n 1. Enter the satrting position \n 2. Check the number on die \n 3.checking the Option");
+            Console.WriteLine("Enter the program number \n 1. Enter the satrting position \n 2. Check the number on die \n 3.checking the Option  \n 4.Winning Position of Player");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -20,8 +20,11 @@
                     case 3:
                     UC3Option_Check.Checkoption();
                     break;
+                         case 4:
+                    UC4_WinningPosition.winningPosition();
+                    break;
             }
         }
                
-        }
+      }
     }
